@@ -81,7 +81,9 @@ module Omnibus
                           /libutil\.dylib/,
                           /libffi\.dylib/,
                           /libncurses\.5\.4\.dylib/,
-                          /libiconv/
+                          /libiconv/,
+                          /libgcc_s\.\d\.dylib/,
+                          /libstdc\+\+.\d\.dylib/
                          ]
 
     WHITELIST_FILES = [
